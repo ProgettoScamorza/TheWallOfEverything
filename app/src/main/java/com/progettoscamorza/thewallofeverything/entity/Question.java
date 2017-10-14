@@ -1,5 +1,8 @@
 package com.progettoscamorza.thewallofeverything.entity;
 
+import com.progettoscamorza.thewallofeverything.enumerations.Complexity;
+import com.progettoscamorza.thewallofeverything.enumerations.Topic;
+
 public class Question {
 
     private String text;

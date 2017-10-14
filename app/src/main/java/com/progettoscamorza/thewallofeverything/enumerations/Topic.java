@@ -1,4 +1,4 @@
-package com.progettoscamorza.thewallofeverything.entity;
+package com.progettoscamorza.thewallofeverything.enumerations;
 
 public enum Topic {
     MATH,
