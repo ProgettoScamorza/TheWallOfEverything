@@ -4,5 +4,6 @@ public enum Topic {
     MATH,
     PHYSICS,
     HISTORY,
-    COMPUTER_SCIENCE
+    COMPUTER_SCIENCE,
+    ART
 }
