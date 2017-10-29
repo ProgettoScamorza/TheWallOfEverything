@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">TheWallOfEverything</string>
+    <string name="app_name">The Wall of Everything</string>
     <string name="start">START</string>
-    <string name="avventura">Avventura</string>
+    <string name="infinity_mode">INFINITY MODE</string>
+    <string name="adventure">ADVENTURE</string>
+    <string name="wallet">WALLET</string>
 </resources>
