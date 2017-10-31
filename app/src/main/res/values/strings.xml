@@ -4,4 +4,8 @@
     <string name="infinity_mode">INFINITY MODE</string>
     <string name="adventure">ADVENTURE</string>
     <string name="wallet">WALLET</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>
