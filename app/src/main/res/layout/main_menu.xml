@@ -24,7 +24,7 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/adventure"
+        android:text="@string/topics"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
