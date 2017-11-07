@@ -9,75 +9,72 @@
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="60dp"
-        android:layout_height="wrap_content"
-        android:background="@android:drawable/ic_menu_revert"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="447dp" />
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Return"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/colorStartButton"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="42dp"
         android:text="Math"
-        tools:layout_editor_absoluteX="137dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/colorStartButton"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="16dp"
         android:text="History"
-        tools:layout_editor_absoluteX="137dp"
-        tools:layout_editor_absoluteY="92dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
 
     <Button
         android:id="@+id/button8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/colorStartButton"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="16dp"
         android:text="Actuality"
-        tools:layout_editor_absoluteX="137dp"
-        tools:layout_editor_absoluteY="164dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7" />
 
     <Button
         android:id="@+id/button9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/colorStartButton"
+        android:layout_width="130dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="16dp"
         android:text="VideoGames"
-        tools:layout_editor_absoluteX="137dp"
-        tools:layout_editor_absoluteY="231dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button8" />
 
     <Button
         android:id="@+id/button10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/colorStartButton"
+        android:layout_width="155dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="114dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="16dp"
         android:text="ComputerScience"
-        tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="301dp" />
-
-    <CheckBox
-        android:id="@+id/checkBox"
-        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:checked="false"
-        android:duplicateParentState="false"
-        android:text="Easy"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="391dp" />
-
-    <CheckBox
-        android:id="@+id/checkBox2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:checked="false"
-        android:text="Hard"
-        tools:layout_editor_absoluteX="248dp"
-        tools:layout_editor_absoluteY="391dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button9" />
 
 </android.support.constraint.ConstraintLayout>
