@@ -5,8 +5,8 @@
     <string name="topics">TOPICS</string>
     <string name="wallet">WALLET</string>
 
-    <string name="title_activity_topic_matches">TopicMatchesActivity</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="logoDescription">Logo</string>
 
 </resources>

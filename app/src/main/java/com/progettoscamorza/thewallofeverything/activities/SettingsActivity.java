@@ -1,11 +1,16 @@
 package com.progettoscamorza.thewallofeverything.activities;
 
 import android.app.Activity;
+import android.os.Bundle;
 
-/**
- * Created by Luca on 31/10/2017.
- */
+import com.progettoscamorza.thewallofeverything.R;
 
 public class SettingsActivity extends Activity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_settings);
+    }
 
 }
