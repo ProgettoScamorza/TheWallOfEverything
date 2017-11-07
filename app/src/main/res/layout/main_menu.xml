@@ -36,6 +36,7 @@
         android:layout_marginBottom="56dp"
         android:background="@color/colorStartButton"
         android:text="@string/adventure"
+        android:text="@string/topics"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />

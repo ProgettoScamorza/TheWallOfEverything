@@ -2,7 +2,11 @@
     <string name="app_name">The Wall of Everything</string>
     <string name="start">START</string>
     <string name="infinity_mode">INFINITY MODE</string>
-    <string name="adventure">ADVENTURE</string>
+    <string name="topics">TOPICS</string>
     <string name="wallet">WALLET</string>
+
+    <string name="title_activity_topic_matches">TopicMatchesActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 
 </resources>
