@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/muro"
     tools:context="com.progettoscamorza.thewallofeverything.activities.MainMenuActivity">
+    <!--android:background="@drawable/muro"-->
 
     <Button
         android:id="@+id/button5"

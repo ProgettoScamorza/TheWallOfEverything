@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/muro"
     tools:context="com.progettoscamorza.thewallofeverything.activities.TopicsActivity">
+    <!--android:background="@drawable/muro"-->
 
     <Button
         android:id="@+id/button5"
@@ -13,9 +13,10 @@
         android:layout_height="48dp"
         android:layout_marginBottom="16dp"
         android:layout_marginStart="16dp"
-        android:text="Return"
+        android:layout_marginLeft="16dp"
+    android:text="Return"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"/>
 
     <Button
         android:id="@+id/button6"
