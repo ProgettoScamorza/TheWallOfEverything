@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
-    android:paddingTop="1dp"
+    android:paddingTop="16dp"
     android:paddingBottom="16dp"
     tools:context="com.progettoscamorza.thewallofeverything.activities.MainActivity"
     android:background="@drawable/muro">
@@ -17,7 +17,7 @@
         android:layout_width="306dp"
         android:layout_height="173dp"
         android:layout_marginTop="296dp"
-        android:background="@drawable/start"
+        android:background="@drawable/start_button"
         android:fontFamily="arial"
         android:textSize="30sp"
         app:layout_constraintLeft_toLeftOf="parent"
