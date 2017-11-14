@@ -1,13 +1,13 @@
-package com.progettoscamorza.thewallofeverything.entity;
+package com.progettoscamorza.thewallofeverything.userprofile;
 
-public class Wallet {
+public class Storage {
 
     private Integer coins;
 
-    public Wallet() {
+    public Storage() {
     }
 
-    public Wallet(Integer coins) {
+    public Storage(Integer coins) {
         this.coins = coins;
     }
 

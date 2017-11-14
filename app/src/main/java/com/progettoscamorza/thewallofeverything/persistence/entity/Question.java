@@ -1,15 +1,29 @@
-package com.progettoscamorza.thewallofeverything.entity;
+package com.progettoscamorza.thewallofeverything.persistence.entity;
+
+import android.arch.persistence.room.ColumnInfo;
+import android.arch.persistence.room.Entity;
+import android.arch.persistence.room.PrimaryKey;
 
 import com.progettoscamorza.thewallofeverything.enumerations.Complexity;
 import com.progettoscamorza.thewallofeverything.enumerations.Topic;
 
+@Entity(tableName = "QUESTIONS")
 public class Question {
 
+    @PrimaryKey
+    private Integer id;
+
+    @ColumnInfo(name = "TEXT")
     private String text;
+    @ColumnInfo(name = "FIRST_ANSWER")
     private Answer answer1;
+    @ColumnInfo(name = "SECOND_ANSWER")
     private Answer answer2;
+    @ColumnInfo(name = "RIGHT_ANSWER")
     private Answer rightAnswer;
+    @ColumnInfo(name = "TOPIC")
     private Topic topic;
+    @ColumnInfo(name = "COMPLEXITY_LEVEL")
     private Complexity complexityLevel;
 
     public Question() {
@@ -26,6 +40,14 @@ public class Question {
 
     public boolean isCorrect(Answer answer) {
         return answer.getText().equals(rightAnswer.getText());
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public String getText() {
