@@ -5,8 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.progettoscamorza.thewallofeverything.activities.MainMenuActivity">
-    <!--android:background="@drawable/muro"-->
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="1dp"
+    android:paddingBottom="16dp"
+    tools:context="com.progettoscamorza.thewallofeverything.activities.MainMenuActivity"
+    android:background="@drawable/muro">
 
     <Button
         android:id="@+id/button11"
@@ -35,13 +39,14 @@
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="17dp"
         android:layout_marginBottom="56dp"
         android:background="@color/colorStartButton"
         android:text="@string/topics"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="80dp" />
 
     <Button
         android:id="@+id/button4"
