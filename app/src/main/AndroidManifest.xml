@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.progettoscamorza.thewallofeverything">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="26"
+        tools:ignore="GradleOverrides" />
+
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -12,7 +20,6 @@
         <activity android:name=".activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -20,8 +27,8 @@
         <activity android:name=".activities.TopicsActivity" />
         <activity android:name=".activities.TopicMatchesActivity"/>
         <activity android:name=".activities.SettingsActivity" />
-        <activity android:name=".activities.StorageActivity"></activity>
-        <activity android:name=".activities.GameActivity"></activity>
+        <activity android:name=".activities.StorageActivity" />
+        <activity android:name=".activities.GameActivity" />
     </application>
 
 </manifest>

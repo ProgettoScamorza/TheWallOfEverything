@@ -1,13 +1,16 @@
 package com.progettoscamorza.thewallofeverything.activities;
 
+import android.app.Activity;
 import android.arch.persistence.room.Room;
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.progettoscamorza.thewallofeverything.R;
 import com.progettoscamorza.thewallofeverything.persistence.DatabaseManager;
 
-public class GameActivity extends AppCompatActivity {
+public class GameActivity extends Activity {
+
+    private DatabaseManager databaseManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,7 +18,7 @@ public class GameActivity extends AppCompatActivity {
         setContentView(R.layout.activity_game);
 
         //database instance
-        DatabaseManager databaseManager = Room.databaseBuilder(
+        databaseManager = Room.databaseBuilder(
                 getApplicationContext(), DatabaseManager.class, "WOE-DB").build();
     }
 }
