@@ -18,6 +18,7 @@
         android:layout_marginBottom="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
+        android:background="@android:drawable/ic_menu_revert"
         android:text="Return"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,6 +31,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="6dp"
         android:layout_marginTop="8dp"
+        android:background="@drawable/math"
         app:layout_constraintBottom_toTopOf="@+id/button5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -59,8 +61,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_marginBottom="6dp"
-                android:background="@color/colorStartButton"
-                android:text="Actuality"
+                android:background="@drawable/history"                android:text="Actuality"
                 tools:layout_editor_absoluteX="142dp"
                 tools:layout_editor_absoluteY="170dp" />
 
@@ -69,8 +70,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="46dp"
                 android:layout_marginBottom="6dp"
-                android:background="@color/colorStartButton"
-                android:text="VideoGames"
+                android:background="@drawable/videogames"                android:text="VideoGames"
                 tools:layout_editor_absoluteX="148dp"
                 tools:layout_editor_absoluteY="457dp" />
 
@@ -89,7 +89,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="6dp"
-                android:background="@color/colorStartButton"
+                android:background="@drawable/information_technology"
                 android:text="ComputerScience"
                 tools:layout_editor_absoluteX="148dp"
                 tools:layout_editor_absoluteY="515dp" />
