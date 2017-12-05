@@ -26,9 +26,6 @@ public class Question {
     @ColumnInfo(name = "COMPLEXITY_LEVEL")
     private Complexity complexityLevel;
 
-    public Question() {
-    }
-
     public Question(String text, Answer answer1, Answer answer2, Answer rightAnswer, Topic topic, Complexity complexityLevel) {
         this.text = text;
         this.answer1 = answer1;

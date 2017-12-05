@@ -16,9 +16,6 @@ public class Answer {
     @ColumnInfo(name = "DELETABLE")
     private boolean isDeletable;
 
-    public Answer() {
-    }
-
     public Answer(String text, boolean isDeletable) {
         this.text = text;
         this.isDeletable = isDeletable;

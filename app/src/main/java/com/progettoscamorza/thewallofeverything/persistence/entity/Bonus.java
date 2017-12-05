@@ -13,9 +13,6 @@ public abstract class Bonus {
     @ColumnInfo(name = "PRICE")
     private Integer price;
 
-    public Bonus() {
-    }
-
     public Bonus(Integer price) {
         this.price = price;
     }
