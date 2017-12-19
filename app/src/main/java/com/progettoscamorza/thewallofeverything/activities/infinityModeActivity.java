@@ -1,32 +1,27 @@
 package com.progettoscamorza.thewallofeverything.activities;
 
+/**
+ * Created by Enrico on 05/12/2017.
+ */
 import android.app.Activity;
 import android.arch.persistence.room.Room;
-import android.opengl.GLSurfaceView;
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.progettoscamorza.thewallofeverything.R;
-import com.progettoscamorza.thewallofeverything.graphics.GameUI;
 import com.progettoscamorza.thewallofeverything.persistence.DatabaseManager;
 
-public class GameActivity extends Activity {
-
+public class infinityModeActivity extends Activity{
     private DatabaseManager databaseManager;
-
-    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_game);
+        setContentView(R.layout.activity_infinity);
 
         //database instance
         databaseManager = Room.databaseBuilder(
                 getApplicationContext(), DatabaseManager.class, "WOE-DB").build();
-
-        loadGraphic();
     }
 
-    private void loadGraphic() {
-        GLSurfaceView glSurfaceView = new GLSurfaceView(getApplicationContext());
-        glSurfaceView.setRenderer(new GameUI());
-    }
+
+
 }

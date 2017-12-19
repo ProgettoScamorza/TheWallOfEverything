@@ -21,6 +21,11 @@ import com.progettoscamorza.thewallofeverything.persistence.entity.Question;
         Topic.class
 }, version = 1)*/
 public abstract class DatabaseManager extends RoomDatabase {
-    //...
-
+    abstract public BonusFiftyFifty bonusFiftyFiftyDao();
+    abstract public BonusPause bonusPauseDao();
+    abstract public BonusSlow bonusSlow();
+    abstract public Answer answer();
+    abstract public Question question();
+    abstract public Complexity complexity();
+    abstract public Topic topic();
 }
