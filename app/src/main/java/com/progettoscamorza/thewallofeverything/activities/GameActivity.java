@@ -17,12 +17,13 @@ public class GameActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
-
+/*
         //database instance
         databaseManager = Room.databaseBuilder(
-                getApplicationContext(), DatabaseManager.class, "WOE-DB").build();
+                getApplicationContext(), DatabaseManager.class, "WOE_DB").build();
+        databaseManager.
 
-        loadGraphic();
+        loadGraphic(); */
     }
 
     private void loadGraphic() {
