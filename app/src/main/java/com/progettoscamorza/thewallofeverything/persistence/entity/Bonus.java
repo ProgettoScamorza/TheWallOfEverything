@@ -4,13 +4,13 @@ import android.arch.persistence.room.ColumnInfo;
 import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.PrimaryKey;
 
-@Entity(tableName = "BONUSES", inheritSuperIndices = true)
+//@Entity(tableName = "BONUSES", inheritSuperIndices = true)
 public abstract class Bonus {
 
-    @PrimaryKey
+    //@PrimaryKey
     private Integer id;
 
-    @ColumnInfo(name = "PRICE")
+    //@ColumnInfo(name = "PRICE")
     private Integer price;
 
     public Bonus() {

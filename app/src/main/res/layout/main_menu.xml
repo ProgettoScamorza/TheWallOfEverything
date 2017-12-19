@@ -26,41 +26,39 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
+        android:layout_width="362dp"
+        android:layout_height="165dp"
         android:layout_marginEnd="130dp"
         android:layout_marginStart="130dp"
-        android:layout_marginTop="50dp"
-        android:background="@color/colorStartButton"
-        android:text="@string/infinity_mode"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/infinitymode"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
+        android:layout_width="324dp"
+        android:layout_height="119dp"
         android:layout_marginEnd="130dp"
         android:layout_marginStart="130dp"
-        android:layout_marginTop="70dp"
-        android:background="@color/colorStartButton"
-        android:text="@string/topics"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/topics"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button11" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
+        android:layout_width="335dp"
+        android:layout_height="119dp"
         android:layout_marginEnd="130dp"
         android:layout_marginStart="130dp"
-        android:layout_marginTop="50dp"
-        android:background="@color/colorStartButton"
-        android:text="@string/wallet"
+        android:background="@drawable/wallet"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
 
