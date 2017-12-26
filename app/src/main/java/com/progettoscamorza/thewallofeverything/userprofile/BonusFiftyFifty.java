@@ -1,7 +1,4 @@
-package com.progettoscamorza.thewallofeverything.persistence.entity;
-
-import android.arch.persistence.room.Entity;
-import android.arch.persistence.room.Ignore;
+package com.progettoscamorza.thewallofeverything.userprofile;
 
 //@Entity(tableName = "BONUSES")
 public class BonusFiftyFifty extends Bonus {

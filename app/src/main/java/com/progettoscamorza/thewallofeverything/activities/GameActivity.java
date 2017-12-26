@@ -2,11 +2,10 @@ package com.progettoscamorza.thewallofeverything.activities;
 
 import android.app.Activity;
 import android.arch.persistence.room.Room;
-import android.opengl.GLSurfaceView;
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.progettoscamorza.thewallofeverything.R;
-import com.progettoscamorza.thewallofeverything.graphics.GameUI;
 import com.progettoscamorza.thewallofeverything.persistence.DatabaseManager;
 
 public class GameActivity extends Activity {
@@ -17,17 +16,15 @@ public class GameActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
-/*
+
+        /*
         //database instance
         databaseManager = Room.databaseBuilder(
                 getApplicationContext(), DatabaseManager.class, "WOE_DB").build();
-        databaseManager.
+            databaseManager.
+        */
 
-        loadGraphic(); */
-    }
-
-    private void loadGraphic() {
-        GLSurfaceView glSurfaceView = new GLSurfaceView(getApplicationContext());
-        glSurfaceView.setRenderer(new GameUI());
+        /* AVVIO DELL'ACTIVITY DI UNITY*/
+        //startActivity(new Intent(getApplicationContext(), UnityPlayerActivity.class));
     }
 }

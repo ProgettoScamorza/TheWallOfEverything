@@ -52,6 +52,14 @@ public class MainMenuActivity extends Activity {
                 startActivity(intent);
             }
         });
+
+        Button infinityModeButton = findViewById(R.id.button2);
+        infinityModeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), GameActivity.class));
+            }
+        });
     }
 
 }

@@ -11,7 +11,7 @@ import android.os.Bundle;
 import com.progettoscamorza.thewallofeverything.R;
 import com.progettoscamorza.thewallofeverything.persistence.DatabaseManager;
 
-public class infinityModeActivity extends Activity{
+public class InfinityModeActivity extends Activity{
     private DatabaseManager databaseManager;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

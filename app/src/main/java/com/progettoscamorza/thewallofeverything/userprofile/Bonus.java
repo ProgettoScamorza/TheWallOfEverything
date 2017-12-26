@@ -1,4 +1,4 @@
-package com.progettoscamorza.thewallofeverything.persistence.entity;
+package com.progettoscamorza.thewallofeverything.userprofile;
 
 import android.arch.persistence.room.ColumnInfo;
 import android.arch.persistence.room.Entity;
