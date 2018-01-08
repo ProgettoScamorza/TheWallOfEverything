@@ -5,5 +5,5 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorStartButton">#e26200</color>
 
-    <color name="black_overlay">#66000000</color>
+    <color name="black_overlay">#00000000</color>
 </resources>
