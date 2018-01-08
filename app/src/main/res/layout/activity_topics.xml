@@ -13,29 +13,22 @@
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="match_parent"
-        android:layout_height="61dp"
-        android:layout_marginBottom="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="16dp"
-        android:text="Return"
+        android:layout_width="82dp"
+        android:layout_height="46dp"
+        android:background="@android:drawable/ic_menu_revert"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ScrollView
-        android:layout_width="370dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="16dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/button5"
+        android:layout_width="341dp"
+        android:layout_height="475dp"
+
+        android:clipToPadding="false"
+        android:fillViewport="false"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginLeft="6dp"
-        android:layout_marginRight="8dp">
+        tools:layout_editor_absoluteY="30dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -44,12 +37,12 @@
 
             <Button
                 android:id="@+id/button6"
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
+                android:layout_width="327dp"
+                android:layout_height="75dp"
                 android:layout_marginBottom="6dp"
                 android:layout_marginTop="42dp"
-                android:background="@color/colorStartButton"
-                android:text="Math"
+                android:background="@drawable/math"
+                android:baselineAligned="false"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -57,40 +50,27 @@
             <Button
                 android:id="@+id/button8"
                 android:layout_width="match_parent"
-                android:layout_height="48dp"
+                android:layout_height="78dp"
                 android:layout_marginBottom="6dp"
-                android:background="@color/colorStartButton"
-                android:text="Actuality"
+                android:background="@drawable/history"
                 tools:layout_editor_absoluteX="142dp"
                 tools:layout_editor_absoluteY="170dp" />
 
             <Button
                 android:id="@+id/button9"
                 android:layout_width="match_parent"
-                android:layout_height="46dp"
+                android:layout_height="wrap_content"
                 android:layout_marginBottom="6dp"
-                android:background="@color/colorStartButton"
-                android:text="VideoGames"
+                android:background="@drawable/videogames"
                 tools:layout_editor_absoluteX="148dp"
                 tools:layout_editor_absoluteY="457dp" />
 
             <Button
-                android:id="@+id/button7"
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_marginBottom="6dp"
-                android:background="@color/colorStartButton"
-                android:text="History"
-                tools:layout_editor_absoluteX="148dp"
-                tools:layout_editor_absoluteY="106dp" />
-
-            <Button
                 android:id="@+id/button10"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="163dp"
                 android:layout_marginBottom="6dp"
-                android:background="@color/colorStartButton"
-                android:text="ComputerScience"
+                android:background="@drawable/internet_technology"
                 tools:layout_editor_absoluteX="148dp"
                 tools:layout_editor_absoluteY="515dp" />
 

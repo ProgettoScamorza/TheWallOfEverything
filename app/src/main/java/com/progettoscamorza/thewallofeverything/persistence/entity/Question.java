@@ -2,6 +2,7 @@ package com.progettoscamorza.thewallofeverything.persistence.entity;
 
 import android.arch.persistence.room.ColumnInfo;
 import android.arch.persistence.room.Entity;
+import android.arch.persistence.room.Ignore;
 import android.arch.persistence.room.PrimaryKey;
 
 import com.progettoscamorza.thewallofeverything.enumerations.Complexity;
@@ -29,6 +30,7 @@ public class Question {
     public Question() {
     }
 
+    @Ignore
     public Question(String text, Answer answer1, Answer answer2, Answer rightAnswer, Topic topic, Complexity complexityLevel) {
         this.text = text;
         this.answer1 = answer1;
