@@ -26,18 +26,24 @@ public class Question {
     private Topic topic;
     @ColumnInfo(name = "COMPLEXITY_LEVEL")
     private Complexity complexityLevel;
+    @ColumnInfo(name = "LEVEL_NUMBER")
+    private Integer levelNumber;
 
     public Question() {
     }
 
     @Ignore
-    public Question(String text, Answer answer1, Answer answer2, Answer rightAnswer, Topic topic, Complexity complexityLevel) {
+    public Question(
+            Integer id, String text, Answer answer1, Answer answer2, Answer rightAnswer,
+            Topic topic, Complexity complexityLevel, Integer levelNumber) {
+        this.id = id;
         this.text = text;
         this.answer1 = answer1;
         this.answer2 = answer2;
         this.rightAnswer = rightAnswer;
         this.topic = topic;
         this.complexityLevel = complexityLevel;
+        this.levelNumber = levelNumber;
     }
 
     public boolean isCorrect(Answer answer) {
@@ -98,5 +104,13 @@ public class Question {
 
     public void setComplexityLevel(Complexity complexityLevel) {
         this.complexityLevel = complexityLevel;
+    }
+
+    public Integer getLevelNumber() {
+        return levelNumber;
+    }
+
+    public void setLevelNumber(Integer levelNumber) {
+        this.levelNumber = levelNumber;
     }
 }

@@ -15,12 +15,11 @@ public class SettingsActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
 
-
-        Button popup = (Button) findViewById(R.id.button);
+        Button popup = (Button) findViewById(R.id.button12);
         popup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SettingsActivity.this ,PopupActivity.class);
+                Intent intent = new Intent(getApplicationContext() ,NewQuestionProposalActivity.class);
                 startActivity(intent);
             }
         });

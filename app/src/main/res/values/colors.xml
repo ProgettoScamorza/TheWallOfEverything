@@ -4,6 +4,8 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorStartButton">#e26200</color>
-
     <color name="black_overlay">#00000000</color>
+
+    <color name="rightAnswerText">#8cff66</color>
+    <color name="wrongAnswerText">#ff3333</color>
 </resources>
